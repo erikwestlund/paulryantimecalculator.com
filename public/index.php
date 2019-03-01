@@ -3,8 +3,8 @@
 <head>
 <title>The Original Paul Ryan Time Calculator</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
-<link rel="image_src" href="http://www.paulryantimecalculator.com/square_logo.png" />
-<link rel="icon" type="image/x-icon" href="http://www.paulryantimecalculator.com/favicon.ico" />
+<link rel="image_src" href="https://www.paulryantimecalculator.com/square_logo.png" />
+<link rel="icon" type="image/x-icon" href="https://www.paulryantimecalculator.com/favicon.ico" />
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -38,15 +38,15 @@
 
 
 
-<div class="header"><a href="http://www.paulryantimecalculator.com/"><img src="/logo.png" style="border: 0px;" /></a></div>
+<div class="header"><a href="https://www.paulryantimecalculator.com/"><img src="/logo.png" style="border: 0px;" /></a></div>
 
 <div class="time_output">
 <?php
 
-$submitted = $_GET['submitted'];
-$time = trim($_GET['time']);
-$distance= $_GET['distance'];
-$gender = $_GET['gender'];
+$submitted = $_GET['submitted'] ?? null;
+$time = trim($_GET['time']) ?? null;
+$distance= $_GET['distance'] ?? null;
+$gender = $_GET['gender'] ?? null;
 
 $event = $distance . $gender;
 
@@ -180,7 +180,7 @@ if($submitted=='yes' && $distance=='ironman'){
 <div style="text-align: center; padding-top: 40px;">
 
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.paulryantimecalculator.com/" data-hashtags="AreYouBetterOff">Tweet</a> 
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.paulryantimecalculator.com/" data-hashtags="AreYouBetterOff">Tweet</a> 
 
 <!-- Place this tag where you want the +1 button to render. -->
 <div class="g-plusone" data-annotation="inline" data-width="150"></div>
@@ -194,7 +194,7 @@ if($submitted=='yes' && $distance=='ironman'){
   })();
 </script>
 
-<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.paulryantimecalculator.com&media=http%3A%2F%2Fwww.paulryantimecalculator.com%2Fsquare_logo.png" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+<a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.paulryantimecalculator.com&media=http%3A%2F%2Fwww.paulryantimecalculator.com%2Fsquare_logo.png" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
 
 
 </div>
@@ -205,7 +205,7 @@ if($submitted=='yes' && $distance=='ironman'){
 
 <div style="text-align: center; padding: 30px 0px 40px 30px;">
 
-<div class="fb-like" data-href="http://www.paulryantimecalculator.com/" data-send="true" data-width="450" data-show-faces="false"></div>
+<div class="fb-like" data-href="https://www.paulryantimecalculator.com/" data-send="true" data-width="450" data-show-faces="false"></div>
 
 
 
@@ -441,7 +441,7 @@ function get_wr($event){
 	$world_records = array(
 		'100m' => '9.58',
 		'200m' => '19.19',
-		'400m' => '43.18',
+		'400m' => '43.03',
 		'800m' => '1:40.91',
 		'1500m' => '3:26.00',
 		'milem' => '3:43.13',
@@ -452,7 +452,7 @@ function get_wr($event){
 		'10milem' => '44:23',
 		'20km' => '55:21',
 		'halfm' => '58:23',
-		'marathonm' => '2:03:38',
+		'marathonm' => '2:02:57',
 		'50km' => '2:43:38',
 		'50milem' => '4:50:51',
 		'100km' => '6:13:33',
@@ -461,7 +461,7 @@ function get_wr($event){
 		'200f' => '21.34',
 		'400f' => '47.60',
 		'800f' => '1:53.28',
-		'1500f' => '3:50.46',
+		'1500f' => '3:50.07',
 		'milef' => '4:12.56',
 		'3000f' => '8:06.11',
 		'5000f' => '14:11.15',
