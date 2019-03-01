@@ -182,18 +182,6 @@ if($submitted=='yes' && $distance=='ironman'){
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.paulryantimecalculator.com/" data-hashtags="AreYouBetterOff">Tweet</a> 
 
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-annotation="inline" data-width="150"></div>
-
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
 <a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.paulryantimecalculator.com&media=https%3A%2F%2Fwww.paulryantimecalculator.com%2Fsquare_logo.png" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
 
 
