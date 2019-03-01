@@ -194,7 +194,7 @@ if($submitted=='yes' && $distance=='ironman'){
   })();
 </script>
 
-<a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.paulryantimecalculator.com&media=http%3A%2F%2Fwww.paulryantimecalculator.com%2Fsquare_logo.png" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+<a href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.paulryantimecalculator.com&media=https%3A%2F%2Fwww.paulryantimecalculator.com%2Fsquare_logo.png" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
 
 
 </div>
