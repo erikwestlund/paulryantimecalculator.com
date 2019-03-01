@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>The Original Paul Ryan Time Calculator</title>
-<link rel="stylesheet" href="//style.css" type="text/css" />
+<link rel="stylesheet" href="/style.css" type="text/css" />
 <link rel="image_src" href="https://paulryantimecalculator.com/square_logo.png" />
 <link rel="icon" type="image/png" href="https://paulryantimecalculator.com/favicon.png" />
 <script type="text/javascript">
