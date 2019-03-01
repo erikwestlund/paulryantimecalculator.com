@@ -6,6 +6,6 @@ services:
       dockerfile: Dockerfile
     image: erikwestlund/prtc-app
     ports:
-     - "82:80"
+     - "8082:80"
     volumes:
      - .:/var/www/html
